@@ -8,7 +8,7 @@ public class LandingController {
     
     @RequestMapping(value = "/")
 	public String landing(){
-		return (new Landing("First Landing").getDisplay());
+		return (new Landing("Hi Anika").getDisplay());
 	}
 
 }
